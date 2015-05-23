@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>WIN-G49Q23ES7NN</Machine>
+    <WindowsUser>t-headd</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>3379affc-1a2c-47d0-9d58-ede2760c3eaf</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\t-headd\Documents\Visual Studio 2015\Projects\App2\App2\bld\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\t-headd\Documents\Visual Studio 2015\Projects\App2\App2\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\t-headd\Documents\Visual Studio 2015\Projects\App2\App2\default.html">
+      <PackagePath>default.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\t-headd\Documents\Visual Studio 2015\Projects\App2\App2\pages\home\home.html">
+      <PackagePath>pages\home\home.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\t-headd\Documents\Visual Studio 2015\Projects\App2\App2\pages\House\house.html">
+      <PackagePath>pages\House\house.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\t-headd\Documents\Visual Studio 2015\Projects\App2\App2\pages\Kirk\kirkland.html">
+      <PackagePath>pages\Kirk\kirkland.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\t-headd\Documents\Visual Studio 2015\Projects\App2\App2\pages\Seattle\seattle.html">
+      <PackagePath>pages\Seattle\seattle.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\t-headd\Documents\Visual Studio 2015\Projects\App2\App2\pages\Redmond\redmond.html">
+      <PackagePath>pages\Redmond\redmond.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\t-headd\Documents\Visual Studio 2015\Projects\App2\App2\pages\page1\page1html.html">
+      <PackagePath>pages\page1\page1html.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\t-headd\Documents\Visual Studio 2015\Projects\App2\App2\images\logo.scale-100.png">
+      <PackagePath>images\logo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\t-headd\Documents\Visual Studio 2015\Projects\App2\App2\images\smalllogo.scale-100.png">
+      <PackagePath>images\smalllogo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\t-headd\Documents\Visual Studio 2015\Projects\App2\App2\images\splashscreen.scale-100.png">
+      <PackagePath>images\splashscreen.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\t-headd\Documents\Visual Studio 2015\Projects\App2\App2\images\storelogo.scale-100.png">
+      <PackagePath>images\storelogo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\t-headd\Documents\Visual Studio 2015\Projects\App2\App2\js\default.js">
+      <PackagePath>js\default.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\t-headd\Documents\Visual Studio 2015\Projects\App2\App2\js\navigator.js">
+      <PackagePath>js\navigator.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\t-headd\Documents\Visual Studio 2015\Projects\App2\App2\pages\home\home.js">
+      <PackagePath>pages\home\home.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\t-headd\Documents\Visual Studio 2015\Projects\App2\App2\pages\House\house.js">
+      <PackagePath>pages\House\house.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\t-headd\Documents\Visual Studio 2015\Projects\App2\App2\pages\Kirk\kirkland.js">
+      <PackagePath>pages\Kirk\kirkland.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\t-headd\Documents\Visual Studio 2015\Projects\App2\App2\pages\Seattle\seattle.js">
+      <PackagePath>pages\Seattle\seattle.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\t-headd\Documents\Visual Studio 2015\Projects\App2\App2\pages\Redmond\redmond.js">
+      <PackagePath>pages\Redmond\redmond.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\t-headd\Documents\Visual Studio 2015\Projects\App2\App2\pages\page1\page1html.js">
+      <PackagePath>pages\page1\page1html.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\t-headd\Documents\Visual Studio 2015\Projects\App2\App2\WinJS\js\en-US\ui.strings.js">
+      <PackagePath>WinJS\js\en-US\ui.strings.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\t-headd\Documents\Visual Studio 2015\Projects\App2\App2\WinJS\js\WinJS.js">
+      <PackagePath>WinJS\js\WinJS.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\t-headd\Documents\Visual Studio 2015\Projects\App2\App2\WinJS\js\WinJS.intellisense.js">
+      <PackagePath>WinJS\js\WinJS.intellisense.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\t-headd\Documents\Visual Studio 2015\Projects\App2\App2\WinJS\js\WinJS.intellisense-setup.js">
+      <PackagePath>WinJS\js\WinJS.intellisense-setup.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\t-headd\Documents\Visual Studio 2015\Projects\App2\App2\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\t-headd\Documents\Visual Studio 2015\Projects\App2\App2\pages\home\home.css">
+      <PackagePath>pages\home\home.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\t-headd\Documents\Visual Studio 2015\Projects\App2\App2\pages\House\house.css">
+      <PackagePath>pages\House\house.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\t-headd\Documents\Visual Studio 2015\Projects\App2\App2\pages\Kirk\kirkland.css">
+      <PackagePath>pages\Kirk\kirkland.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\t-headd\Documents\Visual Studio 2015\Projects\App2\App2\pages\Seattle\seattle.css">
+      <PackagePath>pages\Seattle\seattle.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\t-headd\Documents\Visual Studio 2015\Projects\App2\App2\pages\Redmond\redmond.css">
+      <PackagePath>pages\Redmond\redmond.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\t-headd\Documents\Visual Studio 2015\Projects\App2\App2\pages\page1\page1html.css">
+      <PackagePath>pages\page1\page1html.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\t-headd\Documents\Visual Studio 2015\Projects\App2\App2\WinJS\css\ui-dark.css">
+      <PackagePath>WinJS\css\ui-dark.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\t-headd\Documents\Visual Studio 2015\Projects\App2\App2\WinJS\css\ui-light.css">
+      <PackagePath>WinJS\css\ui-light.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\t-headd\Documents\Visual Studio 2015\Projects\App2\App2\WinJS\fonts\Symbols.ttf">
+      <PackagePath>WinJS\fonts\Symbols.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\t-headd\Documents\Visual Studio 2015\Projects\App2\App2\bin\Debug\ReverseMap\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

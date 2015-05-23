@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>WIN-G49Q23ES7NN</Machine>
+    <WindowsUser>t-headd</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>3379affc-1a2c-47d0-9d58-ede2760c3eaf</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\t-headd\Documents\Visual Studio 2015\Projects\App2\App2\bld\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>CD417F207CBDDFAC2E537F7AB6DB1FD97CD863A97E3FB1C20C781563C0B7758B</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>3379affc-1a2c-47d0-9d58-ede2760c3eaf_1.0.0.0_neutral__mzcdqgbsw6hnt</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>3379affc-1a2c-47d0-9d58-ede2760c3eaf_mzcdqgbsw6hnt!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>3379affc-1a2c-47d0-9d58-ede2760c3eaf</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=t-headd</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\t-headd\Documents\Visual Studio 2015\Projects\App2\App2\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-05-22T18:34:49.600</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\t-headd\Documents\Visual Studio 2015\Projects\App2\App2\default.html">
+      <PackagePath>default.html</PackagePath>
+      <Modified>2015-05-22T22:17:45.139</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\t-headd\Documents\Visual Studio 2015\Projects\App2\App2\pages\home\home.html">
+      <PackagePath>pages\home\home.html</PackagePath>
+      <Modified>2015-05-22T22:20:48.341</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\t-headd\Documents\Visual Studio 2015\Projects\App2\App2\pages\House\house.html">
+      <PackagePath>pages\House\house.html</PackagePath>
+      <Modified>2015-05-23T00:24:28.467</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\t-headd\Documents\Visual Studio 2015\Projects\App2\App2\pages\Kirk\kirkland.html">
+      <PackagePath>pages\Kirk\kirkland.html</PackagePath>
+      <Modified>2015-05-22T21:55:56.430</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\t-headd\Documents\Visual Studio 2015\Projects\App2\App2\pages\Seattle\seattle.html">
+      <PackagePath>pages\Seattle\seattle.html</PackagePath>
+      <Modified>2015-05-22T22:35:10.863</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\t-headd\Documents\Visual Studio 2015\Projects\App2\App2\pages\Redmond\redmond.html">
+      <PackagePath>pages\Redmond\redmond.html</PackagePath>
+      <Modified>2015-05-22T22:15:48.278</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\t-headd\Documents\Visual Studio 2015\Projects\App2\App2\pages\page1\page1html.html">
+      <PackagePath>pages\page1\page1html.html</PackagePath>
+      <Modified>2015-05-21T21:04:02.686</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\t-headd\Documents\Visual Studio 2015\Projects\App2\App2\images\logo.scale-100.png">
+      <PackagePath>images\logo.scale-100.png</PackagePath>
+      <Modified>2015-04-03T00:55:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\t-headd\Documents\Visual Studio 2015\Projects\App2\App2\images\smalllogo.scale-100.png">
+      <PackagePath>images\smalllogo.scale-100.png</PackagePath>
+      <Modified>2015-04-03T00:55:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\t-headd\Documents\Visual Studio 2015\Projects\App2\App2\images\splashscreen.scale-100.png">
+      <PackagePath>images\splashscreen.scale-100.png</PackagePath>
+      <Modified>2015-04-03T00:55:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\t-headd\Documents\Visual Studio 2015\Projects\App2\App2\images\storelogo.scale-100.png">
+      <PackagePath>images\storelogo.scale-100.png</PackagePath>
+      <Modified>2015-04-03T00:55:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\t-headd\Documents\Visual Studio 2015\Projects\App2\App2\js\default.js">
+      <PackagePath>js\default.js</PackagePath>
+      <Modified>2015-05-21T20:51:08.011</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\t-headd\Documents\Visual Studio 2015\Projects\App2\App2\js\navigator.js">
+      <PackagePath>js\navigator.js</PackagePath>
+      <Modified>2015-05-21T20:49:54.426</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\t-headd\Documents\Visual Studio 2015\Projects\App2\App2\pages\home\home.js">
+      <PackagePath>pages\home\home.js</PackagePath>
+      <Modified>2015-05-21T20:48:34.890</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\t-headd\Documents\Visual Studio 2015\Projects\App2\App2\pages\House\house.js">
+      <PackagePath>pages\House\house.js</PackagePath>
+      <Modified>2015-05-22T23:52:38.020</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\t-headd\Documents\Visual Studio 2015\Projects\App2\App2\pages\Kirk\kirkland.js">
+      <PackagePath>pages\Kirk\kirkland.js</PackagePath>
+      <Modified>2015-05-23T00:16:44.269</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\t-headd\Documents\Visual Studio 2015\Projects\App2\App2\pages\Seattle\seattle.js">
+      <PackagePath>pages\Seattle\seattle.js</PackagePath>
+      <Modified>2015-05-23T00:24:18.843</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\t-headd\Documents\Visual Studio 2015\Projects\App2\App2\pages\Redmond\redmond.js">
+      <PackagePath>pages\Redmond\redmond.js</PackagePath>
+      <Modified>2015-05-23T00:16:32.961</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\t-headd\Documents\Visual Studio 2015\Projects\App2\App2\pages\page1\page1html.js">
+      <PackagePath>pages\page1\page1html.js</PackagePath>
+      <Modified>2015-05-21T21:36:34.679</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\t-headd\Documents\Visual Studio 2015\Projects\App2\App2\WinJS\js\en-US\ui.strings.js">
+      <PackagePath>WinJS\js\en-US\ui.strings.js</PackagePath>
+      <Modified>2015-04-03T00:55:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\t-headd\Documents\Visual Studio 2015\Projects\App2\App2\WinJS\js\WinJS.js">
+      <PackagePath>WinJS\js\WinJS.js</PackagePath>
+      <Modified>2015-04-03T00:55:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\t-headd\Documents\Visual Studio 2015\Projects\App2\App2\WinJS\js\WinJS.intellisense.js">
+      <PackagePath>WinJS\js\WinJS.intellisense.js</PackagePath>
+      <Modified>2015-04-03T00:55:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\t-headd\Documents\Visual Studio 2015\Projects\App2\App2\WinJS\js\WinJS.intellisense-setup.js">
+      <PackagePath>WinJS\js\WinJS.intellisense-setup.js</PackagePath>
+      <Modified>2015-04-03T00:55:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\t-headd\Documents\Visual Studio 2015\Projects\App2\App2\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+      <Modified>2015-05-21T21:56:56.929</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\t-headd\Documents\Visual Studio 2015\Projects\App2\App2\pages\home\home.css">
+      <PackagePath>pages\home\home.css</PackagePath>
+      <Modified>2015-05-21T22:02:03.230</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\t-headd\Documents\Visual Studio 2015\Projects\App2\App2\pages\House\house.css">
+      <PackagePath>pages\House\house.css</PackagePath>
+      <Modified>2015-05-23T00:24:38.400</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\t-headd\Documents\Visual Studio 2015\Projects\App2\App2\pages\Kirk\kirkland.css">
+      <PackagePath>pages\Kirk\kirkland.css</PackagePath>
+      <Modified>2015-05-22T21:13:54.784</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\t-headd\Documents\Visual Studio 2015\Projects\App2\App2\pages\Seattle\seattle.css">
+      <PackagePath>pages\Seattle\seattle.css</PackagePath>
+      <Modified>2015-05-22T22:35:09.498</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\t-headd\Documents\Visual Studio 2015\Projects\App2\App2\pages\Redmond\redmond.css">
+      <PackagePath>pages\Redmond\redmond.css</PackagePath>
+      <Modified>2015-05-22T21:13:16.180</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\t-headd\Documents\Visual Studio 2015\Projects\App2\App2\pages\page1\page1html.css">
+      <PackagePath>pages\page1\page1html.css</PackagePath>
+      <Modified>2015-05-21T20:49:15.436</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\t-headd\Documents\Visual Studio 2015\Projects\App2\App2\WinJS\css\ui-dark.css">
+      <PackagePath>WinJS\css\ui-dark.css</PackagePath>
+      <Modified>2015-04-03T00:55:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\t-headd\Documents\Visual Studio 2015\Projects\App2\App2\WinJS\css\ui-light.css">
+      <PackagePath>WinJS\css\ui-light.css</PackagePath>
+      <Modified>2015-04-03T00:55:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\t-headd\Documents\Visual Studio 2015\Projects\App2\App2\WinJS\fonts\Symbols.ttf">
+      <PackagePath>WinJS\fonts\Symbols.ttf</PackagePath>
+      <Modified>2015-04-03T00:55:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\t-headd\Documents\Visual Studio 2015\Projects\App2\App2\bin\Debug\ReverseMap\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2015-05-22T18:34:49.462</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

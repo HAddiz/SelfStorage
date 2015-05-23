@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Seattle</title>
+
+    <link href="seattle.css" rel="stylesheet" />
+    <script src="seattle.js"></script>
+</head>
+<body>
+    <div class="page1html fragment">
+        <header class="page-header" aria-label="Header content" role="banner">
+            <button class="back-button" data-win-control="WinJS.UI.BackButton"></button>
+            <h1 class="titlearea win-type-ellipsis">
+                <span class="pagetitle">Seattle, Washington</span>
+            </h1>
+        </header>
+        <section class="page-section" aria-label="Main content" role="main">
+           
+            <!-- Simple template for the ListView instantiation  -->
+            <div class="smallListIconTextTemplate" data-win-control="WinJS.Binding.Template" style="display: none">
+                <div id ="house" class="smallListIconTextItem" style="width: 620px; height: 240px" data-win-options="{oniteminvoked: handler}">
+                    <img src="#" class="smallListIconTextItem-Image" style="width: 320px; height: 230px" data-win-bind="src: picture" />
+                    <div class="smallListIconTextItem-Detail" style="width: 100px; height: 240px; z-index:9999;" >
+                        <h4 class="descitem" data-win-bind="textContent: title"></h4>
+                        <h6 class="descitem"data-win-bind="textContent: text"></h6>
+                        <div class="descitem control">
+                            <div data-win-control="WinJS.UI.Rating" data-win-options="{disabled :true}" data-win-bind="winControl.userRating: rating"></div>
+                        </div>
+                        <h5 id="price"class="descitem"data-win-bind="textContent: price"></h5>
+                        <h5 id="space"class="descitem"data-win-bind="textContent: space"></h5>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- The declarative markup necesary for ListView instantiation -->
+            <!-- Call WinJS.UI.processAll() in your initialization code -->
+            <div id="listView1"
+                 class="win-selectionstylefilled"
+                 data-win-control="WinJS.UI.ListView"
+                 data-win-options="{
+                    itemDataSource: Seattle.ListView.data.dataSource,
+                    itemTemplate: select('.smallListIconTextTemplate'),
+                    selectionMode: 'single',
+                    tapBehavior: 'invokeOnly',
+                    layout: { type: WinJS.UI.GridLayout }
+    }">
+            </div>
+
+
+        </section>
+    </div>
+</body>
+</html>

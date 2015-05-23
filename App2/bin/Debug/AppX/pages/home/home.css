@@ -1,0 +1,9 @@
+﻿.homepage section[role=main] {
+    margin: auto 120px;
+}
+.titlearea{
+    text-align: center;
+}
+.blurb{
+    text-align: center;
+}

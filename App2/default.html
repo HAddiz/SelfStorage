@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>App9</title>
+
+    <!-- WinJS references -->
+    <link href="/WinJS/css/ui-dark.css" rel="stylesheet" />
+    <!--<script src="/WinJS/js/base.js"></script>-->
+    <script src="/WinJS/js/WinJS.js"></script>
+
+    
+
+    <!-- App9 references -->
+    <link href="/css/default.css" rel="stylesheet" />
+    <script src="/js/default.js"></script>
+    <script src="/js/navigator.js"></script>
+</head>
+<body>
+
+    <div id="navBar" data-win-control="WinJS.UI.NavBar">
+        <div id="globalNav" data-win-control="WinJS.UI.NavBarContainer">
+            <div data-win-control="WinJS.UI.NavBarCommand"
+                 data-win-options="{
+                        label: 'Seattle',
+                        tooltip: 'Take me home',
+                        id:'homeButton',
+                        icon: WinJS.UI.AppBarIcon.home,
+                        location: '/pages/Seattle/seattle.html',
+                      }">
+            </div>
+            <div data-win-control="WinJS.UI.NavBarCommand"
+                 data-win-options="{
+                        label: 'Redmond',
+                        tooltip: 'Take me to Redmond',
+                        id:'redmondButton',
+                        icon: WinJS.UI.AppBarIcon.page,
+                        location: '/pages/Redmond/redmond.html',
+                     }">
+            </div>
+            <div data-win-control="WinJS.UI.NavBarCommand"
+                 data-win-options="{
+                        label: 'Kirkland',
+                        tooltip: 'Take me to Redmond',
+                        id:'page1Button',
+                        icon: WinJS.UI.AppBarIcon.page,
+                        location: '/pages/Kirk/kirkland.html',
+                     }">
+            </div>
+        </div>
+    </div>
+    <br /><br /><br />
+    <div id="contenthost" data-win-control="Application.PageControlNavigator" data-win-options="{home: '/pages/home/home.html'}"></div>
+    <!-- <div id="appbar" data-win-control="WinJS.UI.AppBar">
+        <button data-win-control="WinJS.UI.AppBarCommand" data-win-options="{id:'cmd', label:'Command', icon:'placeholder'}" type="button"></button>
+    </div> -->
+</body>
+</html>
