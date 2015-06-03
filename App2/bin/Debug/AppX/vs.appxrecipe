@@ -38,15 +38,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\t-headd\Documents\Visual Studio 2015\Projects\App2\App2\pages\Kirk\kirkland.html">
       <PackagePath>pages\Kirk\kirkland.html</PackagePath>
-      <Modified>2015-05-22T21:55:56.430</Modified>
+      <Modified>2015-05-26T17:55:33.632</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\t-headd\Documents\Visual Studio 2015\Projects\App2\App2\pages\Seattle\seattle.html">
       <PackagePath>pages\Seattle\seattle.html</PackagePath>
-      <Modified>2015-05-22T22:35:10.863</Modified>
+      <Modified>2015-05-27T00:42:05.208</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\t-headd\Documents\Visual Studio 2015\Projects\App2\App2\pages\Redmond\redmond.html">
       <PackagePath>pages\Redmond\redmond.html</PackagePath>
-      <Modified>2015-05-22T22:15:48.278</Modified>
+      <Modified>2015-05-26T17:55:26.606</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\t-headd\Documents\Visual Studio 2015\Projects\App2\App2\pages\page1\page1html.html">
       <PackagePath>pages\page1\page1html.html</PackagePath>
@@ -134,7 +134,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\t-headd\Documents\Visual Studio 2015\Projects\App2\App2\pages\Seattle\seattle.css">
       <PackagePath>pages\Seattle\seattle.css</PackagePath>
-      <Modified>2015-05-22T22:35:09.498</Modified>
+      <Modified>2015-05-26T17:57:28.891</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\t-headd\Documents\Visual Studio 2015\Projects\App2\App2\pages\Redmond\redmond.css">
       <PackagePath>pages\Redmond\redmond.css</PackagePath>
