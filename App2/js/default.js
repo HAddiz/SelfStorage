@@ -9,37 +9,9 @@
     var sched = WinJS.Utilities.Scheduler;
     var ui = WinJS.UI;
 
-    // WinJS.UI.Pages.define("default.html", {
-    //     ready: function (element, options) {
-    //         document.getElementById('navBar').addEventListener('invoked', this.navbarInvoked.bind(this));
-    //     },
-
-    //     navbarInvoked: function (ev) {
-    //         var navbarCommand = ev.detail.navbarCommand;
-    //         var content = document.body.querySelector("#status");
-
-    //         WinJS.UI.Pages.render(content, navbarCommand.location);
-
-    //         //this.log(navbarCommand.location + " NavBarCommand invoked<br/>");
-
-    //     },
-
-    //     log: function (msg) {
-    //         var statusEl = document.getElementById("status");
-    //         statusEl.innerHTML += msg;
-    //     }
-    // });
-
     app.addEventListener("activated", function (args) {
         if (args.detail.kind === activation.ActivationKind.launch) {
-            if (args.detail.previousExecutionState !== activation.ApplicationExecutionState.terminated) {
-                // TODO: This application has been newly launched. Initialize
-                // your application here.
-            } else {
-                // TODO: This application has been reactivated from suspension.
-                // Restore application state here.
-            }
-
+            
             nav.history = app.sessionState.history || {};
             nav.history.current.initialPlaceholder = true;
 
@@ -58,10 +30,6 @@
     });
 
     app.oncheckpoint = function (args) {
-        // TODO: This application is about to be suspended. Save any state
-        // that needs to persist across suspensions here. If you need to 
-        // complete an asynchronous operation before your application is 
-        // suspended, call args.setPromise().
         app.sessionState.history = nav.history;
     };
 
